@@ -59,7 +59,7 @@ Welcome to the Blogzilla project! This web application allows users to create, p
 - **Frontend:**
     - HTML, CSS, JavaScript
     - Bootstrap
-    - [Any additional frontend libraries or frameworks used]
+    
 
 - **Backend:**
     - Node.js
