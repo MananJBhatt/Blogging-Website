@@ -26,20 +26,11 @@ app.use(express.static(path.resolve('./public')));
 
 app.get('/', async (req, res) => {
     const allBlogs = await Blog.find({});
-    if(req.user){
-        const user = await User.findById(req.user.id);
         res.render('home',{
-            name:user.firstName,
             user:req.user,
             blogs:allBlogs,
-        });
-    }else{
-        res.render('home',{
-            name:'Guest',
             blogs:allBlogs,
         });
-    }
-    
 });
 
 app.use('/user', userRoute);
