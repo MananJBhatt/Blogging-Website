@@ -35,7 +35,7 @@ app.get('/', async (req, res) => {
         });
     }else{
         res.render('home',{
-            user:null,
+            name:'Guest',
             blogs:allBlogs,
         });
     }
