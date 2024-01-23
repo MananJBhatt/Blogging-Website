@@ -2,9 +2,9 @@
 
 Welcome to the Blogzilla project! This web application allows users to create, publish, and manage their blog posts. It provides a user-friendly interface for both writers and readers, making the blogging experience enjoyable and seamless.
 
-## Live Website
+## Live Website 
 
-![https://blogzilla.azurewebsites.net/]
+[Blogzilla](https://blogzilla.azurewebsites.net/)
 
 ## Table of Contents
 - [Features](#features)
